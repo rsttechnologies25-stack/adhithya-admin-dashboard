@@ -13,7 +13,8 @@ import {
     Shield,
     Settings,
     HelpCircle,
-    Boxes
+    Boxes,
+    MapPin
 } from "lucide-react";
 
 const navItems = [
@@ -23,6 +24,7 @@ const navItems = [
     { name: "Categories", icon: FolderTree, href: "/categories" },
     { name: "Orders", icon: ShoppingCart, href: "/orders" },
     { name: "Customers", icon: Users, href: "/customers" },
+    { name: "Branches", icon: MapPin, href: "/branches" },
     { name: "Tickets and Reviews", icon: MessageSquare, href: "/reviews" },
     { name: "Analytics", icon: PieChart, href: "/analytics" },
 ];
